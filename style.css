@@ -91,7 +91,7 @@ img {
 }
 .bg-image {
   /* The image used */
-  background-image: url("imgaes/forest.jpg");
+  background-image: url("images/forest.jpg");
 
   /* Add the blur effect */
   filter: blur(8px);
