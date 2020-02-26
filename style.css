@@ -40,7 +40,6 @@ img {
   display: block;
   margin: auto;
   width: 50%;
-  vertical-align: middle;
 }
 .container {
   width: 900px;
@@ -99,6 +98,13 @@ img {
 }
 .lightyellow {
   background: lightyellow;
+}
+.bg-image {
+  background-image: url("images/white.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
