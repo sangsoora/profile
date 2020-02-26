@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Poppins|Raleway:400,700&display=swap');
+
+body {
+  background: #E9E9E9;
+  font-family: arial;
+  text-align: center;
+}
+h1, h2, h3 {
+  color: #BC89FF;
+  font-family: 'Lobster Two';
+}
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+p {
+  font-family: Poppins;
+  line-height: 40px;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+i {
+  font-size: 40px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container {
+  width: 900px;
+  margin: 16px auto;
+}
+.card-white {
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.btn-blue {
+  background: #0070C0;
+  color: white;
+  border-radius: 40px;
+  display: inline;
+  padding: 10px 40px;
+}
+.btn-blue:hover {
+  color: #0070C0;
+  background: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.img-circle {
+  width: 300px;
+  border-radius: 50%;
+}
+.social-icons {
+  color: #19297C
+}
+.social-icons:hover {
+  color: #C49BBB
+}
+.container-left {
+  display: grid;
+  position: relative;
+  margin: 20px;
+  grid-template-columns: 30% 70%;
+  text-align: left;
+}
+.container-right {
+  display: grid;
+  position: relative;
+  margin: 20px;
+  grid-template-columns: 70% 30%;
+  text-align: right;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .img-circle {
+    width: 200px;
+  }
+}
