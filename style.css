@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Poppins|Raleway:400,700&display=swap');
-
+html, body {
+  height: 100%;
+  margin: 0;
+}
 body {
   background: #E9E9E9;
-  font-family: arial;
+  font-family: Arial;
   text-align: center;
+}
+* {
+  box-sizing: border-box;
 }
 h1, h2, h3 {
   color: #BC89FF;
@@ -15,7 +21,9 @@ h1 {
 }
 h2 {
   font-size: 32px;
-  line-height: 40px;
+  margin: 10px auto;
+  border-bottom: 1px solid grey;
+  line-height: 50px;
 }
 p {
   font-family: Poppins;
@@ -30,9 +38,9 @@ i {
 }
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
+  vertical-align: middle;
 }
 .container {
   width: 900px;
@@ -63,7 +71,7 @@ img {
 }
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 60px;
 }
 .img-circle {
   width: 300px;
@@ -89,21 +97,8 @@ img {
   grid-template-columns: 70% 30%;
   text-align: right;
 }
-.bg-image {
-  /* The image used */
-  background-image: url("images/forest.jpg");
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.lightyellow {
+  background: lightyellow;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
